@@ -1,0 +1,28 @@
+1. Image Implementation (<img>)
+
+The <img> tag is an empty element, meaning it doesn't have a closing tag.
+src: Specifies the path to the image.
+alt: Provides "Alternative Text" if the image fails to load (crucial for accessibility).
+Dimensions: Height and width are set in pixels to maintain the layout.
+
+
+2. Hyperlink (<a>)
+
+The <a> (Anchor) tag creates a clickable link.
+The href attribute (Hypertext Reference) defines the destination URL.
+The text between the opening and closing tags is what the user actually clicks on.
+
+
+3. Table Structure (<table>, <tr>, <td>)
+
+Tables are built row by row:
+<tr> (Table Row) defines a horizontal row.
+<th> (Table Header) defines a bold, centered header cell.
+<td> (Table Data) defines a standard cell.
+
+
+4. Nested Tables
+
+A nested table is simply a table placed inside the <td> or <th> tag of another table. This is
+used for complex data layouts where one category (like "Details") needs to be broken down into
+further sub-categories (like "Class" and "Division").
